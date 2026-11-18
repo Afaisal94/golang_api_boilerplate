@@ -1,0 +1,31 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+first-app
+
+# Environment files — JANGAN commit (berisi password, API key, JWT secret)
+.env
+.env.local
+.env.*.local
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test / coverage
+coverage.out
+coverage.html
+*.test
+
+# Go build cache
+vendor/

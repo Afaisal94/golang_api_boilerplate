@@ -1,0 +1,39 @@
+# Environment & secrets — jangan pernah masuk ke image
+.env
+.env.*
+!.env.example
+
+# Binaries & hasil build lokal
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+first-app
+server
+bin/
+dist/
+
+# VCS & IDE
+.git
+.gitignore
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docker & docs
+Dockerfile
+Dockerfile.*
+docker-compose*.yml
+docker-compose*.yaml
+.dockerignore
+
+# Test / coverage
+coverage.out
+coverage.html
+*.test
+
+# Cache & vendor (dependency di-download di dalam image)
+vendor/
+tmp/
